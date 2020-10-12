@@ -1,0 +1,103 @@
+baseurl      = "/"
+title        = "bearlyMatt"
+languageCode = "en-gb"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "02-01-2020"
+  dateformNumTime = "02-01-2020 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "soundDesigner // podcastProducer // audioEngineer // experimentalCoder // gameMaster // nerd"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Blog and portfolio of Matthew Harazim"
+  keywords = "homepage, blog, portfolio, matthew harazim, sound design, audio, daw, tutorial"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "bearlyMatt"
+    subtitle = "soundDesigner // podcastProducer // audioEngineer // experimentalCoder // gameMaster // nerd"
+    keywords = ""
+    copyright ='<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> <i>CC BY-SA-NC 4.0</i></a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "bearlyMatt"
+      logoHomeLink = "/"
+    # or
+    #
+#     path = "/img/logo.jpg"
+#     alt = "bearlyMatt"
+
+# Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/bearly_matt"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:matthewharazim@vivaldi.net"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/"
+
+  [[params.social]]
+    name = "gpg"
+    url  = "https://gpg.com"
+
+#  [[params.social]]
+#    name = "xampp"
+#    url = "https://www.bearsoundstudio.com"
+#  [[params.social]]
+#    name = "linkedin"
+#    url  = "https://www.linkedin.com/"
+
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
+
+
+
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+ [[menu.main]]
+    identifier = "about"
+    name 	= "About"
+    url		= "/about"
+ [[menu.main]]
+    identifier = "publications"
+    name 	= "Publications"
+    url		= "/pubs"
+ [[menu.main]]
+    identifier = "portfolio"
+    name	= "Portfolio"
+    url		= "/portfolio"
+
+ [[menu.main]]
+    identifier = "bearSound"
+    name	= "bearSound Studio"
+    url 	= "https://www.bearsoundstudio.com"
